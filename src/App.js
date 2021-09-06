@@ -1,10 +1,12 @@
-import Home from './Components/Pages/Home'
-import './Scss/app.scss';
+import React from "react";
+//import Sabana from './Components/Pages/Sabana'
+import GetItem from './Components/Sabana/GetItem'
+
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <GetItem/>
     </div>
   );
 }
