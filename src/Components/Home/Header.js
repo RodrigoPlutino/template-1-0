@@ -1,11 +1,20 @@
 import React from 'react'
 
-function header() {
+
+function Header() {
     return (
-        <div>
-            
-        </div>
-    )
+      <div>
+        <header>
+          <h1>pandas</h1>
+          <nav>
+            <a href="#">First tab</a>
+            <a href="#">Second tab</a>
+            <a href="#">Third tab</a>
+            <a href="#">Fourth tab</a>
+          </nav>
+        </header>
+      </div>
+    );
 }
 
-export default header
+export default Header
