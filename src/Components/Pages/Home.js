@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from '../Home/Header2'
-import Header from '../Sabana/GetItem'
+import Header from '../Home/Header'
+
 
 function Home() {
     return (
         <div>
             <Header/>
-            <GetItem/>
+            
         </div>
     )
 }
