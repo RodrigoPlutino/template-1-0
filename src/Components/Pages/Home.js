@@ -3,8 +3,10 @@ import Header from '../Home/Header'
 
 
 function Home() {
+   
     return (
-        <div>
+        <div className='home'>
+            <CarouselHome/>
             <Header/>
             
         </div>
