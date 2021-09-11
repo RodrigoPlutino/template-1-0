@@ -1,12 +1,14 @@
 import React from 'react'
-import Header from '../Home/Header2'
-import Header from '../Sabana/GetItem'
+import Header from '../Home/Header'
+import CarouselHome from '../Home/CarouselHome'
+
 
 function Home() {
+   
     return (
-        <div>
+        <div className='home'>
+            <CarouselHome/>
             <Header/>
-            <GetItem/>
         </div>
     )
 }
